@@ -1,0 +1,27 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1faee;
+    color: #0075f2;
+    font-family: Helvetica;
+}
+
+/* shadow color: #096B72 */
+
+.pop-up {
+    font-size: 10em;
+    transform: translate(0, 0);
+    transition: 0.5s ease-out;
+}
+
+.pop-up-up {
+    transform: translate(-30px, -30px);
+    text-shadow: 1px 1px 1px #096b72, 2px 2px 1px #096b72, 3px 3px 1px #096b72,
+        4px 4px 1px #096b72, 5px 5px 1px #096b72, 6px 6px 1px #096b72,
+        7px 7px 1px #096b72, 30px 30px 25px rgb(60, 60, 60);
+    transition: 0.5s ease-out;
+    color: rgb(18, 221, 237);
+}
